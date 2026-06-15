@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Record Manager</title>
+    <link rel="stylesheet" href="student.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Manager</h1>
+
+        <form id="studentForm" class="form-box">
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter Student Name"
+                required>
+
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter Age"
+                required>
+
+            <input
+                type="text"
+                id="course"
+                placeholder="Enter Course Name"
+                required>
+
+            <button type="submit" id="saveButton">
+                Add Student
+            </button>
+        </form>
+
+        <div id="studentList"></div>
+
+        <p id="message" class="message"></p>
+    </div>
+
+    <script src="student.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+# Image Files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.bmp
+*.ico
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/

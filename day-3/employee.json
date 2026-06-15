@@ -1,0 +1,37 @@
+[
+  {
+    "empId": 201,
+    "name": "Aman Singh",
+    "department": "IT",
+    "salary": 68000,
+    "city": "Hyderabad"
+  },
+  {
+    "empId": 202,
+    "name": "Neha Gupta",
+    "department": "HR",
+    "salary": 72000,
+    "city": "Delhi"
+  },
+  {
+    "empId": 203,
+    "name": "Karan Mehta",
+    "department": "Finance",
+    "salary": 58000,
+    "city": "Bangalore"
+  },
+  {
+    "empId": 204,
+    "name": "Ananya Rao",
+    "department": "IT",
+    "salary": 76000,
+    "city": "Chennai"
+  },
+  {
+    "empId": 205,
+    "name": "Rohit Jain",
+    "department": "Marketing",
+    "salary": 85000,
+    "city": "Pune"
+  }
+]

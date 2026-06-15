@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eef2f7;
+    color: #202124;
+    font-family: "Poppins", "Segoe UI", sans-serif;
+}
+
+.container {
+    width: min(100%, 420px);
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+}
+
+.container h1 {
+    margin: 0 0 22px;
+    font-size: 1.8rem;
+    letter-spacing: -0.02em;
+    color: #1f2937;
+}
+
+.form-box {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #cfd6df;
+    border-radius: 12px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-box input:focus {
+    border-color: #14b8a6;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 14px 16px;
+    background: #0f766e;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form-box button:hover {
+    background: #115e59;
+}
+
+#studentList {
+    display: grid;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.student-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    background: #f9fafb;
+    gap: 12px;
+}
+
+.student-card p {
+    margin: 0;
+    color: #111827;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.edit-button,
+.delete-button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.edit-button {
+    background: #0891b2;
+    color: white;
+}
+
+.edit-button:hover {
+    background: #0e7490;
+}
+
+.delete-button {
+    background: #ffe4e6;
+    color: #e11d48;
+}
+
+.delete-button:hover {
+    background: #fecdd3;
+}
+
+.message {
+    margin-top: 16px;
+    color: #6b7280;
+    font-size: 0.95rem;
+    min-height: 1.2rem;
+}
+
+.empty {
+    margin: 0;
+    color: #6b7280;
+    text-align: center;
+}
